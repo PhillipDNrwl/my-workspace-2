@@ -1,0 +1,19 @@
+{
+  "name": "cloud-conformance-rules",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "cloud-conformance-rules/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/cloud-conformance-rules",
+        "main": "cloud-conformance-rules/src/index.ts",
+        "tsConfig": "cloud-conformance-rules/tsconfig.lib.json",
+        "assets": ["cloud-conformance-rules/*.md"]
+      }
+    }
+  }
+}
