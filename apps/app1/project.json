@@ -1,0 +1,19 @@
+{
+  "name": "workspace-2-app1",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/app1/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/app1",
+        "main": "apps/app1/src/index.ts",
+        "tsConfig": "apps/app1/tsconfig.lib.json",
+        "assets": ["apps/app1/*.md"]
+      }
+    }
+  }
+}

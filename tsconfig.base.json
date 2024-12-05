@@ -17,6 +17,22 @@
     "paths": {
       "@my-test-workspace-2/cloud-conformance-rules": [
         "cloud-conformance-rules/src/index.ts"
+      ],
+      "@my-test-workspace-2/workspace-2-app1": ["apps/app1/src/index.ts"],
+      "@my-test-workspace-2/workspace-app2": [
+        "apps/workspace-app2/src/index.ts"
+      ],
+      "@my-test-workspace-2/workspace-app3": [
+        "apps/workspace-app3/src/index.ts"
+      ],
+      "@my-test-workspace-2/workspace-app4": [
+        "apps/workspace-app4/src/index.ts"
+      ],
+      "@my-test-workspace-2/workspace-app5": [
+        "apps/workspace-app5/src/index.ts"
+      ],
+      "@my-test-workspace-2/workspace-app6": [
+        "apps/workspace-app6/src/index.ts"
       ]
     }
   },

@@ -1,0 +1,19 @@
+{
+  "name": "workspace-app4",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/workspace-app4/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/workspace-app4",
+        "main": "apps/workspace-app4/src/index.ts",
+        "tsConfig": "apps/workspace-app4/tsconfig.lib.json",
+        "assets": ["apps/workspace-app4/*.md"]
+      }
+    }
+  }
+}
