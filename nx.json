@@ -12,7 +12,10 @@
       "!{projectRoot}/src/test-setup.[jt]s",
       "!{projectRoot}/test-setup.[jt]s"
     ],
-    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
+    "sharedGlobals": [
+      "{workspaceRoot}/.github/workflows/ci.yml",
+      "{workspaceRoot}/bitbucket-pipelines.yml"
+    ]
   },
   "targetDefaults": {
     "@nx/js:tsc": {
@@ -23,7 +26,7 @@
   },
   "nxCloudId": "674f53c7d65714bfee93e43f",
   "nxCloudUrl": "https://staging.nx.app",
-  "test":"1",
+  "test": "1",
   "plugins": [
     {
       "plugin": "@nx/eslint/plugin",
@@ -37,5 +40,6 @@
         "targetName": "test"
       }
     }
-  ]
+  ],
+  "defaultBase": "origin/main"
 }
