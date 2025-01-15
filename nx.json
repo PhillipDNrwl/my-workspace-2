@@ -24,7 +24,7 @@
       "inputs": ["production", "^production"]
     }
   },
-  "nxCloudId": "6786c6f831c773103b439c24",
+  "nxCloudId": "6787e5086ea8b82ac93b25af",
   "nxCloudUrl": "http://localhost:4202",
   "test": "2",
   "plugins": [
