@@ -1,0 +1,19 @@
+{
+  "name": "workspace-app6",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/workspace-app6/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/workspace-app6",
+        "main": "apps/workspace-app6/src/index.ts",
+        "tsConfig": "apps/workspace-app6/tsconfig.lib.json",
+        "assets": ["apps/workspace-app6/*.md"]
+      }
+    }
+  }
+}
