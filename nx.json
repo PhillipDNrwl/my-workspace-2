@@ -24,8 +24,8 @@
       "inputs": ["production", "^production"]
     }
   },
-  "nxCloudId": "6787e5086ea8b82ac93b25af",
-  "nxCloudUrl": "http://localhost:4202",
+  "nxCloudId": "680a5a67127f5ba0d7c7f8c7",
+  "nxCloudUrl": "https://staging.nx.app",
   "test": "2",
   "plugins": [
     { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
