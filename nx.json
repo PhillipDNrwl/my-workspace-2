@@ -26,7 +26,7 @@
   },
   "nxCloudId": "680a5a67127f5ba0d7c7f8c7",
   "nxCloudUrl": "https://staging.nx.app",
-  "test": "2",
+  "test": "10",
   "plugins": [
     { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
     { "plugin": "@nx/jest/plugin", "options": { "targetName": "test" } }
